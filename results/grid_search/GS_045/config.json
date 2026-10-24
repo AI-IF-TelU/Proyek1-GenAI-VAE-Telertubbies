@@ -1,0 +1,9 @@
+{
+    "hidden_dim": 64,
+    "latent_dim": 8,
+    "batch_size": 32,
+    "learning_rate": 0.005,
+    "epochs": 10,
+    "beta": 1.0,
+    "seed": 42
+}

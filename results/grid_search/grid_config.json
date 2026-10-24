@@ -1,0 +1,27 @@
+{
+    "parameters": {
+        "hidden_dim": [
+            256,
+            512,
+            64
+        ],
+        "latent_dim": [
+            4,
+            8,
+            16
+        ],
+        "batch_size": [
+            32,
+            64
+        ],
+        "learning_rate": [
+            0.1,
+            0.01,
+            0.005
+        ]
+    },
+    "epochs": 10,
+    "seed": 42,
+    "beta": 1.0,
+    "total_combinations": 54
+}
