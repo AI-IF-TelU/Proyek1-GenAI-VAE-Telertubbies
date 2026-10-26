@@ -1,0 +1,17 @@
+{
+    "config_id": "GS_067",
+    "config": {
+        "hidden_dim": 512,
+        "latent_dim": 16,
+        "batch_size": 64,
+        "learning_rate": 0.001,
+        "epochs": 10,
+        "beta": 1.0,
+        "seed": 42
+    },
+    "best_val_loss": 106.3336123046875,
+    "best_val_bce": 82.25924405924479,
+    "best_val_kl": 24.07436833699544,
+    "best_val_epoch": 10,
+    "checkpoint_path": "results/grid_search/GS_067/best_model.pth"
+}
