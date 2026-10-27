@@ -693,8 +693,6 @@ Kode hasil revisi mencakup pemeriksaan keberadaan file, pembacaan checkpoint, da
 
 ### Kronologi Prompt & Respons
 
-Catatan transkripsi: Prompt analisis awal tidak dimasukkan karena tidak menghasilkan kode. Seluruh 9 prompt dokumentasi disalin dari PDF percakapan versi lengkap, tanpa pemotongan isi.
-
 #### 1. PERSIAPAN GRID SEARCH DAN PEMBENTUKAN 54 KOMBINASI HYPERPARAMETER
 
 Prompt Kelompok:
@@ -1284,8 +1282,6 @@ GRID_SEARCH_DIR.mkdir(parents=True, exist_ok=True)
 
 ### Kronologi Prompt & Respons
 
-Catatan: Prompt pembuka yang hanya meminta analisis dan rencana kerja tidak dicantumkan karena tidak menghasilkan kode. Seluruh 9 prompt implementasi/pengujian di bawah ditranskripsikan dari PDF DeepSeek Chat 6. Angka model GS_067 dan 72 konfigurasi mengikuti konteks percakapan Chat 6.
-
 #### 1. VISUALISASI GRAFIK TOTAL LOSS BASELINE DAN MODEL TERBAIK (A.1)
 
 Prompt Kelompok:
@@ -1682,8 +1678,6 @@ Catatan: PDF Chat 6 tidak memuat laporan traceback dari proses eksekusi untuk ke
 - Tautan Sesi Chat: https://chatgpt.com/s/cx_6adf1dc193a48191affcf41b802a7727
 
 ### Kronologi Prompt & Respons
-
-Catatan: Terdapat lima pesan pengguna terkait pekerjaan ini. Dua pesan pertama digabungkan dalam satu entri karena merupakan satu permintaan penyimpanan Top 5 yang sama; teks kedua pesan tetap disalin lengkap. Tidak ada permintaan perbaikan traceback notebook dalam transkrip Chat 7.
 
 #### 1. PENYIMPANAN DAN PENAMPILAN 5 KOMBINASI TERBAIK GRID SEARCH
 
