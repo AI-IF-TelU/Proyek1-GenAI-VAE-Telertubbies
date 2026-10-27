@@ -1,0 +1,13 @@
+{
+    "hidden_dim": 256,
+    "latent_dim": 16,
+    "batch_size": 128,
+    "learning_rate": 0.005,
+    "epochs": 50,
+    "beta": 1.0,
+    "seed": 42,
+    "early_stopping_patience": 5,
+    "source_config_id": "GS_047",
+    "epochs_trained": 42,
+    "best_val_epoch": 37
+}
