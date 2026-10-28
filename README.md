@@ -278,7 +278,3 @@ README lama proyek menekankan bahwa *baseline* dan Grid Search tidak perlu diula
 
 - **Aset README:** gambar memakai path relatif `docs/assets/`. Preview `README.md` yang dibuka tanpa folder tersebut dapat menampilkan ikon gambar rusak; setelah README dan keempat gambar berada pada struktur yang sama di GitHub, tautan gambar dapat ter-render.
 - **Perubahan eksperimen:** dokumentasi prompting awal mencatat Grid Search 54 kombinasi dan baseline 10 epoch, sedangkan notebook terbaru memakai **72 kombinasi** dan **baseline 50 epoch**. README ini mengikuti versi notebook terbaru, bukan menganggap kedua eksperimen itu identik.
-
----
-
-**Sumber informasi dokumen:** `README(1).md` (README lama yang Anda unggah), `main.ipynb` (kode dan output eksekusi tersimpan), serta empat gambar output notebook.
