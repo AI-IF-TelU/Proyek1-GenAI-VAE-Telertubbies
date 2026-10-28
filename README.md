@@ -7,6 +7,13 @@ Proyek ini mengimplementasikan **Variational Autoencoder (VAE) berbasis Multi-La
 
 Implementasi utama terdapat pada [`main.ipynb`](main.ipynb). Alur eksperimen mencakup persiapan data, pembuatan arsitektur dan fungsi *loss*, pelatihan *baseline*, *hyperparameter tuning*, pelatihan ulang lima konfigurasi teratas, pemilihan checkpoint terbaik, analisis, dan visualisasi. Interaksi selama pengembangan berbantuan LLM didokumentasikan secara terpisah.
 
+## Anggota
+
+- **A1:** Darel Ajni Fahrezi (NIM: 103012580009) — Ketua, Prompt Engineer & Arsitektur
+- **A2:** Dianne Dini Al-Haq (NIM: 103012580032) — Training Loop & Hyperparameter Tuning Engineer
+- **A3:** Debby Lelyca Rohdearni Damanik (NIM: 103012580001) — Loss & Optimization Engineer
+- **A4:** Yasser Abdulah Ramadhan (NIM: 103012580039) — QA, Documentation & Error Handler
+
 ## Daftar Isi
 
 - [Fitur Proyek](#fitur-proyek)
