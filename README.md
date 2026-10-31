@@ -161,11 +161,11 @@ Setiap model menghasilkan **16 gambar** dalam grid 4 × 4, menggunakan sampel la
 
 **Baseline — `latent_dim=2`**
 
-![Generasi 16 digit dari baseline](docs/assets/generasi-baseline.png)
+![Generasi 16 digit dari baseline](report/assets/generasi-baseline.png)
 
 **GS_067 — `latent_dim=16`**
 
-![Generasi 16 digit dari GS_067](docs/assets/generasi-gs067.png)
+![Generasi 16 digit dari GS_067](report/assets/generasi-gs067.png)
 
 ### Interpolasi di ruang laten
 
@@ -179,11 +179,11 @@ Interpolasi menggunakan **10 titik**, termasuk kedua ujung (`t=0` dan `t=1`). Pa
 
 **Pasangan gambar sumber**
 
-![Pasangan gambar dari validation](docs/assets/pasangan-validasi.png)
+![Pasangan gambar dari validation](report/assets/pasangan-validasi.png)
 
 **Perbandingan interpolasi Baseline dan GS_067**
 
-![Interpolasi Baseline vs GS_067](docs/assets/interpolasi-baseline-vs-gs067.png)
+![Interpolasi Baseline vs GS_067](report/assets/interpolasi-baseline-vs-gs067.png)
 
 Pengamatan visual pada contoh ini menunjukkan hasil GS_067 relatif lebih jelas pada beberapa tahap transisi. Ini adalah **pengamatan kualitatif terhadap satu pasangan gambar**, bukan bukti keunggulan universal model untuk setiap digit.
 
@@ -195,17 +195,16 @@ Struktur berikut merangkum **path yang digunakan oleh notebook** serta file doku
 GenAI-VAE/
 ├── main.ipynb
 ├── README.md
-├── requirements.txt                  # Jika tersedia di repository Anda
+├── requirements.txt                  
 ├── data/
 │   └── mnist.npz
-├── docs/
+├── report/
 │   ├── assets/
 │   │   ├── generasi-baseline.png
 │   │   ├── generasi-gs067.png
 │   │   ├── pasangan-validasi.png
 │   │   └── interpolasi-baseline-vs-gs067.png
-│   └── ...                           # Dokumentasi / log interaksi LLM, bila ada
-├── tests/                             # Opsional, bila tersedia dalam repository
+│   └── ...                           # Dokumentasi / log interaksi LLM                             
 └── results/
     ├── baseline/
     │   ├── vae_baseline.pth
@@ -227,7 +226,7 @@ GenAI-VAE/
     │   ├── config.json
     │   └── comparison.csv
     ├── figures/                       # Hasil gambar/grafik .png
-    └── evaluation/                    # CSV analisis dan evaluasi, bila dijalankan
+    └── evaluation/                    # CSV analisis dan evaluasi
 ```
 
 ## Instalasi dan Menjalankan Proyek
@@ -277,11 +276,5 @@ README lama proyek menekankan bahwa *baseline* dan Grid Search tidak perlu diula
 - **Pemeriksaan model dan data:** notebook berisi pengecekan bentuk tensor, rentang piksel, jumlah parameter, konsistensi loss, dan keberadaan checkpoint.
 - **Reproduksibilitas:** pemisahan data, Grid Search, retraining, dan visualisasi menggunakan seed yang ditetapkan pada masing-masing cell (umumnya 42). Hasil dapat sedikit berbeda pada lingkungan/perangkat lain.
 - **Evaluasi:** pemilihan model menggunakan **validation loss**, bukan data test. Kode evaluasi test set tersedia, tetapi output numeriknya belum tersimpan pada file notebook yang diperiksa.
-- **Pengujian otomatis:** README lama menyediakan perintah berikut. Gunakan **hanya jika folder `tests/` memang ada** dalam repository Anda; folder ini tidak disertakan dalam unggahan yang saya periksa.
-
-  ```bash
-  python -m unittest discover -s tests -v
-  ```
-
-- **Aset README:** gambar memakai path relatif `docs/assets/`. Preview `README.md` yang dibuka tanpa folder tersebut dapat menampilkan ikon gambar rusak; setelah README dan keempat gambar berada pada struktur yang sama di GitHub, tautan gambar dapat ter-render.
+- **Aset README:** gambar memakai path relatif `report/assets/`. Preview `README.md` yang dibuka tanpa folder tersebut dapat menampilkan ikon gambar rusak; setelah README dan keempat gambar berada pada struktur yang sama di GitHub, tautan gambar dapat ter-render.
 - **Perubahan eksperimen:** dokumentasi prompting awal mencatat Grid Search 54 kombinasi dan baseline 10 epoch, sedangkan notebook terbaru memakai **72 kombinasi** dan **baseline 50 epoch**. README ini mengikuti versi notebook terbaru, bukan menganggap kedua eksperimen itu identik.
