@@ -9,10 +9,10 @@ Implementasi utama terdapat pada [`main.ipynb`](main.ipynb). Alur eksperimen men
 
 ## Anggota
 
-- **A1:** Darel Ajni Fahrezi (NIM: 103012580009) — Ketua, Prompt Engineer & Arsitektur
-- **A2:** Dianne Dini Al-Haq (NIM: 103012580032) — Training Loop & Hyperparameter Tuning Engineer
-- **A3:** Debby Lelyca Rohdearni Damanik (NIM: 103012580001) — Loss & Optimization Engineer
-- **A4:** Yasser Abdulah Ramadhan (NIM: 103012580039) — QA, Documentation & Error Handler
+- **A1:** Darel Ajni Fahrezi (NIM: 103012580009) — Ketua, Arsitektur model dan integrasi
+- **A2:** Debby Lelyca Rohdearni Damanik (NIM: 103012580001) — Pipeline data, grafik eksperimen, dan evaluasi akhir
+- **A3:** Dianne Dini Al-Haq (NIM: 103012580032) — Training, tuning, dan verifikasi checkpoint
+- **A4:** Yasser Abdulah Ramadhan (NIM: 103012580039) — Pencatatan interaksi dan penyusunan laporan
 
 ## Daftar Isi
 
